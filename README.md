@@ -1,6 +1,6 @@
-# 👔 Loja de Moda Masculina – Projeto em Grupo (Front-End)
+# 👔 Loja de Moda Masculina – Projeto em Grupo (Desenvolvimento Web)
 
-Este repositório contém o projeto desenvolvido em **grupo** para a disciplina de **Front-End** da **UNINASSAU**.  
+Este repositório contém o projeto desenvolvido em **grupo** para a disciplina de **Desenvolvimento Web** da **UNINASSAU**.  
 Trata-se de uma **loja de moda masculina**, criada com foco em layout moderno, responsividade e uso dos componentes do **Bootstrap**.
 
 O projeto está sendo produzido por **4 integrantes**, como parte de uma **atividade avaliativa** da disciplina.
@@ -10,9 +10,9 @@ O projeto está sendo produzido por **4 integrantes**, como parte de uma **ativi
 ## 👥 Equipe do Projeto
 
 - Desenvolvedores: **Felipe Vargas / Glauber Luiz / Arthur Gomes / Anne Gabrielle**  
-- Disciplina: **Front-End**  
+- Disciplina: **Desenvolvimento Web**  
 - Instituição: **UNINASSAU**  
-- Orientação: Tiago Emilio
+- Orientação: **Tiago Emilio**
 
 ---
 
