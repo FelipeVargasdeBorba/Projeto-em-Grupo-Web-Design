@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="css/style-produtos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-login.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top p-0">
+
+        <div class="container-fluid py-3 border-bottom">
+            <div class="row w-100 align-items-center">
+
+                <div class="col-3 col-lg-4 d-flex justify-content-start">
+                    <button class="btn p-0 text-dark-link links-uppercase" aria-label="Buscar">
+                        <i class="bi bi-search fs-5"></i>
+                    </button>
+                </div>
+
+                <div class="col-6 col-lg-4 text-center">
+                    <a class="navbar-brand fw-bold text-decoration-none logo-color d-inline-block" href="#">
+                        <span class="fs-4">Logo da Marca</span>
+                    </a>
+                    <div class="d-none d-lg-block"></div>
+                </div>
+
+                <div class="col-3 col-lg-4 d-flex justify-content-end align-items-center">
+
+                    <div class="d-none d-lg-block">
+                        <ul class="nav links-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark-link active fw-bold px-2" aria-current="page"
+                                    href="#">INÍCIO</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-dark-link fw-bold px-2" href="#" id="produtosDropdown">
+                                    PRODUTOS
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-full position-absolute start-0 end-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-auto mx-auto">
+                                                <ul class="mega-menu-list">
+                                                    <li><a href="#">CAMISAS</a></li>
+                                                    <li><a href="#">CALÇAS</a></li>
+                                                    <li><a href="#">ACESSÓRIOS</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark-link fw-bold px-2" href="#">ALGUMA COISA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark-link fw-bold px-2" href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="btn p-0 text-dark-link links-uppercase me-3 ms-4" aria-label="Conta"
+                        data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="bi bi-person fs-5"></i>
+                    </button>
+                    <button class="btn p-0 text-dark-link links-uppercase" aria-label="Sacola">
+                        <i class="bi bi-bag fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1602810320073-1230c46d89d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBzaGlydHxlbnwxfHx8fDE3NjM0MjUyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Camiseta Oversized">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short Slim</h3>
+                    <p class="price">R$ 89,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1658910453954-6ca847bb7470?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW5pbSUyMGplYW5zfGVufDF8fHx8MTc2MzQxMDM0MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Calça Jeans Slim">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short Cargo</h3>
+                    <p class="price">R$ 159,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1613966570650-add3cf83aa83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW1tZXIlMjBkcmVzc3xlbnwxfHx8fDE3NjM0MTY0OTV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Vestido Floral">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short Moleton</h3>
+                    <p class="price">R$ 199,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1706765779494-2705542ebe74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aW50ZXIlMjBqYWNrZXR8ZW58MXx8fHwxNzYzNDEzMjk1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Jaqueta de Inverno">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short de Linho</h3>
+                    <p class="price">R$ 119,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1656944227480-98180d2a5155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbmVha2VycyUyMHNob2VzfGVufDF8fHx8MTc2MzM5ODI5Nnww&ixlib=rb-4.1.0&q=80&w=1080" alt="Tênis Casual">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short de Crochê</h3>
+                    <p class="price">R$ 249,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwY2xvdGhpbmd8ZW58MXx8fHwxNzYzNDE5NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Conjunto Moletom">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short Dry-Fit</h3>
+                    <p class="price">R$ 279,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1602810320073-1230c46d89d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBzaGlydHxlbnwxfHx8fDE3NjM0MjUyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Camisa Social">
+                <div class="product-info">
+                    <h3 id="nome-produto">Short Casual</h3>
+                    <p class="price">R$ 99,90</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1658910453954-6ca847bb7470?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW5pbSUyMGplYW5zfGVufDF8fHx8MTc2MzQxMDM0MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Shorts Jeans">
+                <div class="product-info">
+                    <h3 id="nome-produto">Bermuda Chino</h3>
+                    <p class="price">R$ 119,90</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
