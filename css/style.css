@@ -1,38 +1,17 @@
-.bg-marrom-escuro {
-    background-color: #4E342E !important;
-}
-.text-marrom-escuro {
-    color: #4E342E !important;
-}
-.bg-verde-militar {
-    background-color: #4B5320 !important;
-}
-.text-verde-militar {
-    color: #4B5320 !important;
-}
-
-.btn-verde-militar {
-    background-color: #4B5320;
-    color: #FFFFFF;
-    border-color: #4B5320;
-}
-.btn-verde-militar:hover {
-    background-color: #3B441B;
-    border-color: #3B441B;
+:root{
+    --marrom-principal: #4E342E;
+    --marrom-hover: #8B4513;
+    --verde-principal: #4B5320;
 }
 
 .logo-color {
-    color: #5D4037 !important;
+    color: var(--marrom-principal);
 }
 .text-dark-link {
-    color: #333 !important;
+    color: var(--marrom-principal) !important;
 }
 .text-dark-link:hover {
-    color: #8B4513 !important;
-}
-.links-uppercase {
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    color: var(--marrom-hover) !important;
 }
 
 .dropdown-menu-full {
@@ -52,6 +31,7 @@
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
     pointer-events: none;
 }
+
 .mega-menu-list {
     padding: 0;
     margin: 0;
@@ -148,9 +128,8 @@
 
 .faq-title {
     font-weight: 800;
-    letter-spacing: 1px;
     border-bottom: 1px solid #444;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .accordion-item {
@@ -167,19 +146,6 @@
     padding: 15px 0;
 }
 
-.accordion-button:not(.collapsed) {
-    background-color: transparent;
-    color: #e2e2e2;
-    box-shadow: none;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-}
-
-.accordion-button::after {
-    filter: invert(1);
-}
 
 .accordion-body {
     color: #e2e2e2;
