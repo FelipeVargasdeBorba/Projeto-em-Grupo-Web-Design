@@ -63,23 +63,11 @@ O foco principal do trabalho é o **domínio do Bootstrap**, explorando seus com
 
 ## 📌 Possíveis Expansões
 
-- Adicionar carrosséis e seções extras  
-- Implementar responsividade completa para mobile  
-- Criar filtros e organização de produtos  
+- Deixar Carrinho Funcional
+- Implementar responsividade completa para mobile
 - Adicionar animações simples via CSS ou JavaScript  
 - Integrar futuramente com backend
 
 ---
 
-## 💬 Contribuição
-
-Como este é um **projeto em grupo**, todas as alterações são discutidas e alinhadas entre os membros, mantendo:
-
-- Padronização de código  
-- Uso compartilhado do GitHub  
-- Divisão clara de tarefas  
-- Revisões de commits em equipe  
-
----
-
-👕 *Projeto colaborativo de Front-End — criado com Bootstrap, trabalho em equipe e dedicação.*  
+👕 *Projeto colaborativo de Desenvolvimento Web — criado com Bootstrap, trabalho em equipe e dedicação.*  
