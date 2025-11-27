@@ -4,12 +4,15 @@
     --verde-principal: #4B5320;
 }
 
-.logo-color {
-    color: var(--marrom-principal);
+.navbar-brand img {
+    height: 60px !important;
 }
+
 .text-dark-link {
     color: var(--marrom-principal) !important;
+    transition: color 0.3s ease;
 }
+
 .text-dark-link:hover {
     color: var(--marrom-hover) !important;
 }
@@ -38,6 +41,7 @@
     list-style: none;
     text-align: left;
 }
+
 .mega-menu-list li a {
     color: #333;
     padding: 5px 0;
@@ -46,11 +50,13 @@
     font-weight: normal;
     text-transform: uppercase;
 }
+
 .mega-menu-list li a:hover {
-    color: #4B5320;
+    color: var(--verde-principal);
     text-decoration: none;
     font-weight: bold;
 }
+
 @media (min-width: 992px) {
     .nav-item.dropdown:hover>.dropdown-menu-full {
         visibility: visible;
@@ -59,6 +65,8 @@
         pointer-events: auto;
     }
 }
+
+
 
 .categoria-card {
     position: relative;
@@ -87,7 +95,7 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(to top,
-            rgba(0, 0, 0, 0.75) 0%,
+            rgba(0, 0, 0, 0.7) 0%,
             rgba(0, 0, 0, 0.5) 40%,
             rgba(0, 0, 0, 0.1) 80%,
             rgba(0, 0, 0, 0) 100%);
@@ -96,12 +104,12 @@
     justify-content: flex-end;
     align-items: flex-start;
     padding: 1.5rem;
-    transition: background 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .categoria-card:hover .categoria-overlay {
     background: linear-gradient(to top,
-            rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0.8) 0%,
             rgba(0, 0, 0, 0.6) 40%,
             rgba(0, 0, 0, 0.2) 80%,
             rgba(0, 0, 0, 0) 100%);
