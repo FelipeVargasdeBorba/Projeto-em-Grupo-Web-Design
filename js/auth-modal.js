@@ -63,3 +63,9 @@ function backToLogin(e) {
     e.preventDefault();  // evita comportamento padrão (enviar o formulário, recarregar a página, etc.)
     showForm(loginForm, "Entrar na Conta"); // volta para login
 }
+
+// exibe alerta ao clicar em criar conta
+
+document.getElementById("btnCriarConta").addEventListener("click", () => {
+    alert("Conta criada com sucesso!");
+});
