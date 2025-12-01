@@ -54,19 +54,22 @@ O foco principal do trabalho é o **domínio do Bootstrap**, explorando seus com
 
 ---
 
-## 🚀 Status do Projeto
+# Paginas de HTML com CSS e JavaScript:
 
-- 🔄 Em desenvolvimento (atividade em andamento)  
-- 📌 Melhorias sendo implementadas constantemente pelos membros da equipe  
+index.html:  Consiste na aba principal, contendo as  maiores informações sobre o site. Como:
+  - Grid de Produtos;
+  - Carrinho
+  - Banners de produtos;
+  - Login;
+  - Carrinho;
+  - Aba de produtos;
+  - navbar.
 
----
+Pastas de Paginas de produtos (Contendo: calcas.html; camisas.html; short.html; acessorio.html; relogio.html): Apresenta na pagina o layout de produtos oferecidos pela loja, e com preços e descrição de produtos.
 
-## 📌 Possíveis Expansões
+Pastas de CSS (Contendo: style.css; style-produtos.css; style-login; style-carrinho): Estilização das abas, deixando de forma mais visual e moderna de ser utilizada.
 
-- Deixar Carrinho Funcional
-- Implementar responsividade completa para mobile
-- Adicionar animações simples via CSS ou JavaScript  
-- Integrar futuramente com backend
+Pastas de JS (Contendo: auto-model.js; cart.js): Utilização de JavaScript basico e funcional, onde procura funcionalidades na pagina, e deixando a usabilidade do usuário mais moderna.
 
 ---
 
